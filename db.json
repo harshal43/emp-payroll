@@ -1,0 +1,78 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "employee": [
+    {
+      "empName": "Harshal Bharatkar",
+      "empContactNo": 8290947343,
+      "empAltContactNo": 8889559943,
+      "empEmail": "harshalbh@gmail.com",
+      "addressLine1": "test",
+      "addressLine2": "test",
+      "pincode": 481001,
+      "city": "balaghat",
+      "state": "test",
+      "bankName": "test",
+      "ifsc": "test1223",
+      "accountNo": 1234567890,
+      "bankBranch": "test",
+      "salary": 123456,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "empName": "test1",
+      "empContactNo": 9087654321,
+      "empAltContactNo": 9876543210,
+      "empEmail": "ts@gmail.com",
+      "addressLine1": "qwerty",
+      "addressLine2": "ytrewq",
+      "pincode": 123456,
+      "city": "ts",
+      "state": "ts",
+      "bankName": "ts",
+      "ifsc": "12334ts",
+      "accountNo": 12345678,
+      "bankBranch": "ts",
+      "salary": 1234567
+    }
+  ],
+  "empAttendance": [
+    {
+      "empName": "Harshal Bharatkar",
+      "time": "15:28",
+      "date": "2023-12-25",
+      "isFull": "True",
+      "id": 1
+    },
+    {
+      "empName": "test1",
+      "time": "08:30",
+      "date": "2023-12-25",
+      "isFull": "True",
+      "id": 2
+    },
+    {
+      "empName": "test2",
+      "time": "09:47",
+      "date": "2023-12-07",
+      "isFull": "False",
+      "id": 3
+    }
+  ]
+}
